@@ -7,3 +7,4 @@
  */
 
 $app->get('/', Loja\Action\Home::class);
+$app->get('/about', Loja\Action\About::class);

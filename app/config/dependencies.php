@@ -26,3 +26,6 @@ $container['view'] = function ($container) {
 $container[Loja\Action\Home::class] = function ($container) {
     return new Loja\Action\Home($container['view']);
 };
+$container[Loja\Action\About::class] = function ($container) {
+    return new Loja\Action\About($container['view']);
+};
