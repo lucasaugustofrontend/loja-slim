@@ -1,5 +1,37 @@
 {% extends 'partials/main.twig' %}
 
 {% block main %}
-    <h1>Usado Templates com extends</h1>
+    <div class="columns welcome">
+        <div class="column has-text-centered">
+            Welcome e-commerce Lucas
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column is-4 is-offset-4">
+            <form action="" method="post">
+                <div class="field">
+                    <label class="email">Email:</label>
+                    <div class="control has-icons-left">
+                        <input class="input" id="email" type="email" placeholder="hello@test.com">
+                        <span class="icon is-small is-left">
+                          <i class="fa fa-envelope"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="password">Senha:</label>
+                    <div class="control has-icons-left">
+                        <input type="password" class="input" id="password" name="password" placeholder="*****">
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-key"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <button type="submit" class="button is-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
 {% endblock %}
