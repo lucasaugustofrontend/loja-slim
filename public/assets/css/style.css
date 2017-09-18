@@ -1,0 +1,14 @@
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.welcome {
+    background: whitesmoke;
+    font-size: 3rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
